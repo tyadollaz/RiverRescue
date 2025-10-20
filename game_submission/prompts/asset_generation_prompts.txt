@@ -1,0 +1,12 @@
+# Prompts for Asset Generation
+
+1. Create a vibrant and engaging background for the game that reflects the river rescue theme.
+2. Design character sprites for the main player and rescue team members, showcasing different poses and actions.
+3. Generate visual assets for various obstacles in the river, such as rocks, logs, and whirlpools.
+4. Develop icons for power-ups and special abilities that players can collect during the game.
+5. Create a user interface (UI) layout for health bars, score counters, and timers that fits the game's aesthetic.
+6. Design animated effects for actions like jumping, rescuing, and collecting items.
+7. Generate sound visualizations or representations for audio cues in the game.
+8. Create a logo for the game that encapsulates the river rescue theme and is visually appealing.
+9. Develop a series of environmental assets, such as trees, wildlife, and weather effects, to enhance the game's atmosphere.
+10. Create a storyboard or concept art for key scenes in the game to visualize the narrative flow.

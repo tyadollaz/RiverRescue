@@ -1,0 +1,23 @@
+# Prompts for Code Generation
+
+1. **Game Logic Development**
+   - What are the core mechanics of the game that need to be implemented in code?
+   - How can I structure the game loop to ensure smooth gameplay?
+   - What data structures will be necessary to manage game state and player interactions?
+
+2. **User Interface Components**
+   - What UI elements are required for the main menu, and how should they be organized?
+   - How can I create responsive design elements that adapt to different screen sizes?
+   - What event listeners are needed to handle user input effectively?
+
+3. **Integration of Assets**
+   - How can I load and manage game assets (images, audio) efficiently in the code?
+   - What methods can be used to preload assets to minimize loading times during gameplay?
+
+4. **Game State Management**
+   - How will I manage transitions between different game states (menu, playing, results)?
+   - What strategies can I use to save and load game progress?
+
+5. **Debugging and Testing**
+   - What are the best practices for debugging game logic and ensuring code quality?
+   - How can I implement logging to track game events and errors during development?

@@ -1,0 +1,12 @@
+# Prompts for Refinement
+
+1. What are the most common bugs encountered during gameplay?
+2. How can the user interface be improved for better user experience?
+3. Are there any performance issues that need to be addressed?
+4. What feedback have players provided that could enhance the game?
+5. How can the game mechanics be fine-tuned for balance and fairness?
+6. What additional features could be added to increase engagement?
+7. Are there any visual elements that need polishing or redesigning?
+8. How can the audio experience be improved to enhance immersion?
+9. What are the key areas where players struggle, and how can they be simplified?
+10. How can the overall game flow be optimized for a smoother experience?

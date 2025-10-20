@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>River Rescue</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <header>
+            <h1>Welcome to River Rescue!</h1>
+            <p>Your mission is to save the stranded animals in the river.</p>
+        </header>
+        <nav>
+            <button id="start-game">Start Game</button>
+            <button id="instructions">Instructions</button>
+            <button id="exit">Exit</button>
+        </nav>
+        <section id="game-instructions" style="display: none;">
+            <h2>Instructions</h2>
+            <p>Use the arrow keys to navigate and spacebar to rescue the animals. Avoid obstacles!</p>
+            <button id="back-to-menu">Back to Menu</button>
+        </section>
+        <section id="game-play" style="display: none;">
+            <!-- Game canvas will be rendered here -->
+            <canvas id="gameCanvas"></canvas>
+        </section>
+        <section id="game-results" style="display: none;">
+            <h2>Game Over</h2>
+            <p id="score"></p>
+            <button id="restart-game">Play Again</button>
+        </section>
+    </div>
+    <script src="js/utils.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
