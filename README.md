@@ -24,8 +24,7 @@ Release → Fall
 
 Avoid obstacles, collect trash, grab power-ups!
 
-**🕹️ Gameplay Overview
-**
+**🕹️ Gameplay Overview**
 You play as a volunteer captain of the River Rescue Team, tasked with cleaning the Mekong River.
 Your goal is to collect floating trash while dodging obstacles and racing against time.
 The cleaner you make the river, the more it visually transforms — from murky brown to crystal blue.
@@ -44,19 +43,19 @@ Element	Type	Description	Sustainability Significance
 
 **💡 Core Features**
 
-Saigon River Environment
+1) Saigon River Environment
 The background is inspired by the Saigon River. We hope to address the pollution of Saigon River through this game and inspire users to help with the cleaning efforts!
 
-Fast-Paced Arcade Mechanics
+2) Fast-Paced Arcade Mechanics
 Inspired by Jetpack Joyride, blending fun gameplay with real-world awareness.
 
-Local Scoring System
+3) Local Scoring System
 Keeps track of your best cleanup efforts and total trash collected.
 
-Power-Ups and Hazards
+4) Power-Ups and Hazards
 Simulates both innovation (tech solutions) and threats (pollution obstacles) in the sustainability narrative.
 
-🌱 Educational Message
+**🌱 Educational Message**
 
 “River Rescue” isn’t just a game — it’s an interactive metaphor for sustainability.
 
@@ -66,7 +65,7 @@ The Mekong River is a lifeline for millions in Vietnam and Southeast Asia. Its h
 
 Players experience firsthand that small, consistent actions — like proper waste disposal or reducing single-use plastics — can lead to visible change.
 
-⚙️ Tech Stack
+**⚙️ Tech Stack**
 
 Phaser 3 – 2D game engine for rendering and physics
 
@@ -76,7 +75,7 @@ Pixel Art Assets – Simple sprites designed for replacement or customization
 
 Local Storage – Persistent high score and cleanup data
 
-🎨 Customization
+**🎨 Customization**
 
 All assets are replaceable in /public/assets/.
 Want to reskin the game for a different country or ecosystem? Replace:
@@ -87,7 +86,7 @@ backgrounds/bg_stage*.png with your own river art
 
 bottle.png, bag.png, can.png with localized waste types (e.g., coffee cups, straws)
 
-🌏 Credits & Acknowledgements
+**🌏 Credits & Acknowledgements**
 
 Created to raise awareness about river pollution, plastic waste, and sustainable living in Vietnam 🇻🇳.
 Inspired by real community clean-up efforts along the Mekong and Saigon Rivers.
