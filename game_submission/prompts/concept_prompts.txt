@@ -1,11 +1,11 @@
 # Brainstorming prompts for game concept development
-1. What unique mechanics can we introduce to enhance gameplay?
-2. How can we incorporate environmental themes into the game narrative?
-3. What character archetypes would resonate with our target audience?
-4. What challenges can players face that reflect real-world issues?
-5. How can we create a compelling backstory that engages players?
-6. What visual styles can we explore to make the game stand out?
-7. How can we integrate educational elements into the gameplay?
-8. What emotions do we want players to experience while playing?
-9. How can we encourage teamwork or competition among players?
-10. What innovative features can we implement to keep players engaged?
+1. I want to create a game with similar gameplay/engagement like the game 'Jetpack Joyride', could you validate this game with the following requirements: 
+
+- Relates to a social issue: environmental friendliness
+- Your game must include at least the following screens/views:
+Menu
+Play
+
+2. I must use the following framework to code: HTML, CSS, Javascript. What is the recommended game engine framework to use for the scrolling
+
+3. Help me generate the backstory of this game related to Saigon River 
