@@ -1,5 +1,5 @@
 # Prompts for Asset Generation
 
-1. Could you please help me generate a pixelart background of the Saigon River preferably 960 x 540 pixels. I want the aesthetic to be simple and cute and pixelated just like the image i will provide you as reference. The river should be slightly murky and the skyline to be slightly orangey. 
+1. Could you please help me generate a pixelart background of the Mekong Delta preferably 960 x 540 pixels. I want the aesthetic to be simple and cute and pixelated just like the image i will provide you as reference. The river should be slightly murky and the skyline to be slightly orangey. 
 2. Could you please help me generate a pixelart image of the following items: boat, plastic bottle, crushed soda can, submarine, log, fish net, magnet, shield and timer.
 3. Could you help me resize these images to make it smaller about 24 pixels
