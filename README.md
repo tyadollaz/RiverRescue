@@ -46,13 +46,13 @@ Element	Type	Description	Sustainability Significance
 1) Saigon River Environment
 The background is inspired by the Saigon River. We hope to address the pollution of Saigon River through this game and inspire users to help with the cleaning efforts!
 
-2) Fast-Paced Arcade Mechanics
+3) Fast-Paced Arcade Mechanics
 Inspired by Jetpack Joyride, blending fun gameplay with real-world awareness.
 
-3) Local Scoring System
+5) Local Scoring System
 Keeps track of your best cleanup efforts and total trash collected.
 
-4) Power-Ups and Hazards
+7) Power-Ups and Hazards
 Simulates both innovation (tech solutions) and threats (pollution obstacles) in the sustainability narrative.
 
 **🌱 Educational Message**
