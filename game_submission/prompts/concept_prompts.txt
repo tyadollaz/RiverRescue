@@ -8,4 +8,4 @@ Play
 
 2. I must use the following framework to code: HTML, CSS, Javascript. What is the recommended game engine framework to use for the scrolling
 
-3. Help me generate the backstory of this game related to Saigon River 
+3. Help me generate the 2-3 lines of backstory of this game related to Mekong Delta and Vietnamese rivers
