@@ -1,9 +1,10 @@
 # RiverRescue
-🌊 River Rescue: Clean the Mekong
+**🌊 River Rescue: Clean the Mekong**
 
 A pixel-art side-scrolling arcade game that combines fast-paced fun with a message about sustainability and environmental stewardship in Vietnam.
 
-🧭 How to Run the Game
+**🧭 How to Run the Game**
+
 Option 1: Local (React + Vite + Phaser)
 1) git clone https://github.com/tyadollaz/RiverRescue
 2) cd RiverRescue
@@ -12,12 +13,10 @@ Option 1: Local (React + Vite + Phaser)
 5) Open the link shown (usually http://localhost:5173).
 
 Option 2: Play the HTML Prototype
-
 If you just want to try the standalone prototype:
+-> Open index.html in your browser.
 
-Open index.html in your browser.
-
-Controls:
+**Controls:**
 
 Hold Space / Mouse → Go up
 
@@ -25,28 +24,28 @@ Release → Fall
 
 Avoid obstacles, collect trash, grab power-ups!
 
-🕹️ Gameplay Overview
-
+**🕹️ Gameplay Overview
+**
 You play as a volunteer captain of the River Rescue Team, tasked with cleaning the Mekong River.
 Your goal is to collect floating trash while dodging obstacles and racing against time.
 The cleaner you make the river, the more it visually transforms — from murky brown to crystal blue.
 
 Element	Type	Description	Sustainability Significance
-🛶 Boat	Player	Your eco-volunteer vessel	Represents individual agency — each person can make a difference in sustainability efforts.
-🧴 Plastic Bottle	Collectible	Common single-use item	Symbolizes the global plastic pollution crisis and need for waste reduction.
-🥫 Can	Collectible	Aluminum beverage can	Highlights the importance of recycling — metal can be reused infinitely.
-🗑️ Plastic Bag	Collectible	Floating bag	Draws attention to microplastics harming aquatic life.
-🌲 Log	Obstacle	Floating debris	Represents natural challenges or neglect in river maintenance.
-🎣 Fishing Net	Obstacle	Discarded net	Stands for ghost gear, a real cause of fish entanglement in the Mekong.
-🚤 Submarine	Obstacle	Industrial pollution	Symbolizes unseen underwater threats and human industrial waste.
-🧲 Turbo Cleaner (Magnet)	Power-up	Attracts nearby trash	Represents technology’s positive potential in environmental cleanup.
-🛡️ Eco Shield	Power-up	Temporary invincibility	Stands for environmental resilience and protection through community action.
-⏱️ Eco Boost	Power-up	Adds 10s to timer	Represents the urgency of climate action — small boosts make big differences.
-🌊 River Background	Environment	Shifts from polluted brown → clean blue	Visual metaphor for progress — collective action leads to a cleaner planet.
-💡 Core Features
+🛶 Boat	Player:	Your eco-volunteer vessel	Represents individual agency — each person can make a difference in sustainability efforts.
+🧴 Plastic Bottle:	Collectible	Common single-use item	Symbolizes the global plastic pollution crisis and need for waste reduction.
+🥫 Can:	Collectible	Aluminum beverage can	Highlights the importance of recycling — metal can be reused infinitely.
+🗑️ Plastic Bag:	Collectible	Floating bag	Draws attention to microplastics harming aquatic life.
+🌲 Log	Obstacle:	Floating debris	Represents natural challenges or neglect in river maintenance.
+🎣 Fishing Net	Obstacle:	Discarded net	Stands for ghost gear, a real cause of fish entanglement in the Mekong.
+🚤 Submarine	Obstacle:	Industrial pollution	Symbolizes unseen underwater threats and human industrial waste.
+🧲 Turbo Cleaner (Magnet)	Power-up:	Attracts nearby trash	Represents technology’s positive potential in environmental cleanup.
+🛡️ Eco Shield	Power-up:	Temporary invincibility	Stands for environmental resilience and protection through community action.
+⏱️ Eco Boost	Power-up:	Adds 10s to timer	Represents the urgency of climate action — small boosts make big differences.
 
-Dynamic River Environment
-The background changes in color and clarity as you collect trash — your impact is visible.
+**💡 Core Features**
+
+Saigon River Environment
+The background is inspired by the Saigon River. We hope to address the pollution of Saigon River through this game and inspire users to help with the cleaning efforts!
 
 Fast-Paced Arcade Mechanics
 Inspired by Jetpack Joyride, blending fun gameplay with real-world awareness.
