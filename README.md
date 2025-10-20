@@ -5,13 +5,11 @@ A pixel-art side-scrolling arcade game that combines fast-paced fun with a messa
 
 🧭 How to Run the Game
 Option 1: Local (React + Vite + Phaser)
-git clone https://github.com/tyadollaz/RiverRescue
-cd RiverRescue
-npm install
-npm run dev
-
-
-Then open the link shown (usually http://localhost:5173).
+1) git clone https://github.com/tyadollaz/RiverRescue
+2) cd RiverRescue
+3) npm install
+4) npm run dev
+5) Open the link shown (usually http://localhost:5173).
 
 Option 2: Play the HTML Prototype
 
