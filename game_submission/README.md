@@ -3,11 +3,6 @@
 ## Overview
 RiverRescue is an engaging web-based game designed to educate players about environmental conservation, specifically focusing on river ecosystems. Players will navigate through various challenges that highlight the importance of preserving our rivers and the wildlife that inhabit them.
 
-## Instructions to Run the Game
-1. Clone the repository to your local machine.
-2. Open the `game_app/index.html` file in a web browser.
-3. Follow the on-screen instructions to start playing.
-
 ## Project Summary
 This project aims to raise awareness about river conservation through interactive gameplay. Players will learn about the impact of pollution, the importance of biodiversity, and the steps they can take to protect their local waterways. The game combines educational content with fun mechanics to create an immersive experience. 
 
