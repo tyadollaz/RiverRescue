@@ -1,6 +1,100 @@
 # Prompts for Asset Generation
 
-1. Could you please help me generate a pixelart background of the Mekong Delta preferably 960 x 540 pixels. I want the aesthetic to be simple and cute and pixelated just like the image i will provide you as reference. The river should be slightly murky and the skyline to be slightly orangey. 
-Could you also provide another background with the exact image, but change the color of the river to be less murky and more bluish
-2. Could you please help me generate a pixelart image of the following items: boat, plastic bottle, crushed soda can, submarine, log, fish net, magnet, shield and timer.
-3. Could you help me resize these images to make it smaller about 24 pixels
+## Background Images
+
+1. Could you please help me generate a pixelart background of the Mekong Delta preferably 960 x 540 pixels. I want the aesthetic to be simple and cute and pixelated just like the image I will provide you as reference. The river should be slightly murky and the skyline to be slightly orangey, representing pollution and early morning/evening light.
+
+2. Could you also provide another background with the exact same composition, but change the color of the river to be less murky and more bluish, representing a cleaner state of the river?
+
+3. Create 7 progressive versions of the river background:
+   - Stage 0: Very murky brown water, dark pollution clouds
+   - Stage 1: Dark brown water, some visibility
+   - Stage 2: Brown-green water transitioning
+   - Stage 3: Green-blue water, clearer
+   - Stage 4: Light blue water, much cleaner
+   - Stage 5: Clear blue water, beautiful
+   - Stage 6: Crystal clear blue water, pristine condition
+   
+   Keep the same Saigon/Mekong River skyline with buildings and landmarks, only change water color and sky brightness.
+
+## Sprite Assets - Collectibles
+
+4. Could you please help me generate pixelart images of the following trash items (32x32 pixels):
+   - Plastic water bottle (clear with blue cap)
+   - Crushed aluminum soda can (red/silver)
+   - Plastic shopping bag (white/beige)
+   
+   Make them recognizable but cute, simple pixel art style
+
+5. Generate the sprites with transparency (PNG format) so they work well against any background
+
+## Sprite Assets - Obstacles
+
+6. Create pixelart sprites for obstacles (48x48 pixels):
+   - Wooden log floating in water (brown, bark texture)
+   - Abandoned fishing net (tangled, ghostly look)
+   - Small submarine/underwater debris (industrial, rusty)
+   
+   These should look slightly more threatening than collectibles
+
+## Sprite Assets - Power-ups
+
+7. Generate pixelart power-up sprites (40x40 pixels) with glowing/special effects:
+   - Magnet icon (horseshoe magnet, red and blue)
+   - Shield icon (eco-friendly green shield)
+   - Timer/clock icon (clock with green plus symbol)
+   
+   Add subtle glow or sparkle effects to make them stand out as special items
+
+## Player Sprite
+
+8. Create a pixelart boat sprite (64x48 pixels):
+   - Small eco-volunteer boat
+   - Vietnamese style fishing/patrol boat
+   - Friendly, clean design
+   - Facing right (direction of travel)
+   - Could show "River Rescue" text on side
+
+## Resizing and Optimization
+
+9. Could you help me resize these images to make them smaller, about 24-48 pixels depending on importance:
+   - Boat: 48px wide
+   - Trash: 24-32px
+   - Obstacles: 40-48px
+   - Power-ups: 32-40px
+
+10. Optimize all PNG files for web:
+    - Reduce color palette where possible
+    - Compress without losing quality
+    - Ensure transparency is preserved
+    - Target file size under 10KB per sprite
+
+## Icon and UI Elements
+
+11. Generate small UI icons (16x16 pixels):
+    - Score star/gem
+    - Timer clock
+    - Trash counter icon
+    - Menu button
+    - Play/pause buttons
+
+12. Create simple text/button backgrounds:
+    - Menu button backgrounds (rounded rectangles)
+    - Score display panel
+    - Timer display background
+    
+## Style Guidelines Reference
+
+13. All assets should follow these style guidelines:
+    - Pixel art aesthetic (not high-res scaled down)
+    - Limited color palette (8-16 colors per sprite)
+    - Clean, readable silhouettes
+    - Consistent lighting direction (top-left)
+    - Cute/friendly not realistic
+    - Vietnamese cultural elements where appropriate
+
+14. For the AI image generator, use prompts like:
+    "pixel art, 32x32, simple, cute, [item name], transparent background, retro game style, clean pixels, limited colors"
+
+15. Request variations:
+    "Generate 3 variations of [item] so I can choose the best one for game readability"

@@ -1,11 +1,65 @@
 # Brainstorming prompts for game concept development
+
+## Initial Concept Phase
+
 1. I want to create a game with similar gameplay/engagement like the game 'Jetpack Joyride', could you validate this game with the following requirements: 
+   - Relates to a social issue: environmental friendliness
+   - Your game must include at least the following screens/views: Menu, Play, End
+   - The game should be educational but fun and engaging
 
-- Relates to a social issue: environmental friendliness
-- Your game must include at least the following screens/views:
-Menu
-Play
+2. I must use the following framework to code: HTML, CSS, Javascript. What is the recommended game engine framework to use for the scrolling side-scroller arcade game? Should I use Phaser, PixiJS, or vanilla canvas?
 
-2. I must use the following framework to code: HTML, CSS, Javascript. What is the recommended game engine framework to use for the scrolling
+3. Help me generate the 2-3 lines of backstory of this game related to Mekong Delta and Vietnamese rivers. The game should focus on pollution and cleaning efforts.
 
-3. Help me generate the 2-3 lines of backstory of this game related to Mekong Delta and Vietnamese rivers
+4. What game mechanics would work well for an environmental cleanup game? Consider:
+   - Collection mechanics (trash pickup)
+   - Obstacles (pollution sources)
+   - Power-ups (cleanup tools)
+   - Progression system (river cleanliness stages)
+
+5. How can we make the environmental message clear without being preachy? What visual feedback can show the player's positive impact?
+
+## Game Design Refinement
+
+6. Create a list of 8-10 game elements (collectibles, obstacles, power-ups) that represent:
+   - Real pollution types in Vietnamese rivers
+   - Environmental threats
+   - Cleanup technologies
+   - Each element should have symbolic meaning
+
+7. What scoring system would encourage learning about different types of waste? Should plastic bags be worth more than bottles? Why?
+
+8. How should the game balance difficulty with educational value? Should it get harder as the river gets cleaner?
+
+9. Design a progression system that shows environmental impact:
+   - How many stages of cleanliness?
+   - What visual changes show improvement?
+   - How do we celebrate player achievements?
+
+## Technical Approach
+
+10. Should this be built with React + Phaser for better structure, or pure JavaScript for simplicity? Consider:
+    - Maintainability
+    - Performance
+    - Asset management
+    - State management
+
+11. What's the best way to handle responsive design for a game that needs precise controls?
+
+12. How should we persist player progress? LocalStorage for high scores? What data matters most?
+
+## Educational Content
+
+13. What facts about river pollution in Vietnam should be included in the game?
+    - Statistics on plastic waste
+    - Impact on marine life
+    - Mekong River importance
+    - Community cleanup efforts
+
+14. Where should educational content appear without disrupting gameplay?
+    - Loading screens
+    - End screen
+    - Menu "About" section
+    - Pause screen
+
+15. How can we inspire real-world action through the game? What call-to-action should we include?

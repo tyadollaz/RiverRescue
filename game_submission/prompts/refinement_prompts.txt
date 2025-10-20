@@ -1,12 +1,281 @@
-# Prompts for Refinement
+# Prompts for Refinement, Debugging, and Polishing
 
-1. What are the most common bugs encountered during gameplay?
-2. How can the user interface be improved for better user experience?
-3. Are there any performance issues that need to be addressed?
-4. What feedback have players provided that could enhance the game?
-5. How can the game mechanics be fine-tuned for balance and fairness?
-6. What additional features could be added to increase engagement?
-7. Are there any visual elements that need polishing or redesigning?
-8. How can the audio experience be improved to enhance immersion?
-9. What are the key areas where players struggle, and how can they be simplified?
-10. How can the overall game flow be optimized for a smoother experience?
+## Bug Fixing and Debugging
+
+1. **Collision Detection Issues**
+   "The player sometimes passes through obstacles without taking damage. Debug the collision system:
+   - Check overlap vs collider settings
+   - Verify hitbox sizes
+   - Test at different frame rates
+   - Add debug visualization for physics bodies
+   What's causing the missed collisions?"
+
+2. **Performance Optimization**
+   "The game lags when many objects are on screen. Profile and optimize:
+   - Are we destroying off-screen objects?
+   - Is object pooling implemented?
+   - Are there memory leaks?
+   - Too many collision checks?
+   Use Phaser debug tools to identify bottleneck."
+
+3. **Asset Loading Errors**
+   "Some assets fail to load intermittently. Improve reliability:
+   - Add error handling for missing assets
+   - Implement retry logic
+   - Show meaningful error messages
+   - Validate asset paths
+   - Test with slow network conditions"
+
+4. **Timer Accuracy**
+   "The game timer sometimes doesn't count down exactly 60 seconds. Fix timing:
+   - Use deltaTime properly
+   - Account for frame drops
+   - Ensure consistent update rate
+   - Test timer accuracy over multiple runs"
+
+5. **State Management Bugs**
+   "Power-ups sometimes persist between game rounds. Fix state reset:
+   - Clear all active effects on game end
+   - Reset player position and velocity
+   - Clean up spawned objects
+   - Verify scene restart logic"
+
+## User Experience Improvements
+
+6. **Control Responsiveness**
+   "Players report controls feel 'floaty'. Improve feel:
+   - Adjust gravity and acceleration values
+   - Add input buffering
+   - Reduce input lag
+   - Test different physics settings
+   - Get player feedback on iterations"
+
+7. **Visual Clarity**
+   "Players can't distinguish trash from obstacles quickly. Enhance readability:
+   - Adjust sprite sizes
+   - Add outline/glow effects
+   - Use more contrasting colors
+   - Improve background contrast
+   - Test with colorblind modes"
+
+8. **Difficulty Balancing**
+   "Game feels too easy/hard. Balance difficulty:
+   - Adjust spawn rates over time
+   - Fine-tune obstacle density
+   - Rebalance score values
+   - Test with multiple skill levels
+   - Add difficulty curve data logging"
+
+9. **Feedback and Juiciness**
+   "Game feels static and unresponsive. Add more juice:
+   - Enhance screen shake on impacts
+   - Add particle effects on collections
+   - Implement sound effects (when added)
+   - Create smooth transitions
+   - Add satisfying animations"
+
+10. **UI/UX Polish**
+    "Menu system needs improvement. Enhance usability:
+    - Make buttons more obvious
+    - Add hover states
+    - Improve text readability
+    - Add loading indicators
+    - Smooth scene transitions
+    - Better instruction clarity"
+
+## Game Balance
+
+11. **Score Value Balancing**
+    "Are trash point values balanced for gameplay? Analyze:
+    - Bottle: 10 pts - too low/high?
+    - Can: 15 pts - good middle ground?
+    - Bag: 25 pts - worth the risk?
+    - Test different values with players"
+
+12. **Power-up Frequency**
+    "Power-ups spawn too often/rarely. Adjust balance:
+    - Current: every 6 seconds
+    - Test different intervals
+    - Consider player skill
+    - Ensure discovery without overwhelming
+    - Balance power-up durations"
+
+13. **Obstacle Difficulty**
+    "Obstacles feel unfair or too easy. Refine:
+    - Adjust movement speeds
+    - Create better spawn patterns
+    - Add warning indicators
+    - Balance with available space
+    - Test reaction time requirements"
+
+14. **Progression Pacing**
+    "Background transitions happen too fast/slow. Optimize thresholds:
+    - Current: 0, 100, 200, 350, 500, 700, 900
+    - Should stages feel more evenly spaced?
+    - Test average player progress
+    - Adjust for satisfying milestones"
+
+## Code Quality Improvements
+
+15. **TypeScript Errors**
+    "Fix all TypeScript compilation errors:
+    - Resolve 'any' type issues
+    - Add proper interfaces
+    - Fix null/undefined checks
+    - Ensure type safety
+    - Enable strict mode"
+
+16. **Code Organization**
+    "Refactor for better maintainability:
+    - Extract magic numbers to constants
+    - Create reusable utility functions
+    - Separate concerns better
+    - Add comments for complex logic
+    - Follow consistent naming conventions"
+
+17. **Error Handling**
+    "Add robust error handling:
+    - Try-catch blocks for critical code
+    - Graceful degradation
+    - User-friendly error messages
+    - Logging for debugging
+    - Recovery mechanisms"
+
+## Feature Enhancements
+
+18. **Mobile Support**
+    "Make game playable on mobile devices:
+    - Add touch controls
+    - Implement virtual buttons
+    - Adjust UI for smaller screens
+    - Test on various devices
+    - Optimize performance for mobile"
+
+19. **Accessibility**
+    "Improve accessibility features:
+    - Add keyboard-only navigation
+    - Increase text contrast
+    - Add colorblind-friendly mode
+    - Implement screen reader support
+    - Add pause functionality"
+
+20. **Educational Content**
+    "Enhance the educational aspect:
+    - Add more environmental facts
+    - Include statistics on screen
+    - Create tooltip system
+    - Add 'Did you know?' moments
+    - Link to real organizations"
+
+## Performance Optimization
+
+21. **Asset Optimization**
+    "Reduce load times and memory usage:
+    - Compress PNG files further
+    - Use sprite atlases
+    - Lazy load non-critical assets
+    - Implement asset caching
+    - Measure load time improvements"
+
+22. **Render Optimization**
+    "Improve rendering performance:
+    - Reduce draw calls
+    - Use static images where possible
+    - Optimize particle systems
+    - Implement culling for off-screen objects
+    - Profile render time"
+
+23. **Memory Management**
+    "Prevent memory leaks:
+    - Properly destroy Phaser objects
+    - Remove event listeners
+    - Clear timers on scene end
+    - Test for memory leaks over time
+    - Use Chrome DevTools profiler"
+
+## Testing and QA
+
+24. **Cross-browser Testing**
+    "Ensure compatibility across browsers:
+    - Test on Chrome, Firefox, Safari, Edge
+    - Check WebGL support
+    - Test audio playback
+    - Verify localStorage works
+    - Test different screen sizes"
+
+25. **Gameplay Testing**
+    "Conduct thorough playtesting:
+    - Test full game loops multiple times
+    - Try edge cases (staying still, moving constantly)
+    - Test all power-up combinations
+    - Verify scoring accuracy
+    - Check timer precision"
+
+26. **Bug Report Investigation**
+    "Player reports: 'Score went negative' - Debug:
+    - Check penalty calculation
+    - Verify score minimum
+    - Review collision logic
+    - Add score validation
+    - Implement score floor at 0"
+
+## Polish and Final Touches
+
+27. **Animation Improvements**
+    "Add smooth animations:
+    - Boat bobbing motion
+    - Trash rotation
+    - Power-up pulsing
+    - Smooth score popups
+    - Transition effects"
+
+28. **Visual Effects**
+    "Enhance visual appeal:
+    - Add water splash effects
+    - Create trail effects
+    - Improve background parallax
+    - Add ambient animations
+    - Polish particle effects"
+
+29. **Audio Implementation** (Future)
+    "When adding sound, remember:
+    - Background music (looping, muted option)
+    - Collection sound effects
+    - Collision sounds
+    - Power-up activation sounds
+    - Menu navigation clicks
+    - Volume controls"
+
+30. **Final QA Checklist**
+    "Before submission, verify:
+    ✓ Game starts without errors
+    ✓ All scenes transition properly
+    ✓ Controls are responsive
+    ✓ Score calculates correctly
+    ✓ High score saves/loads
+    ✓ Timer counts accurately
+    ✓ All assets load properly
+    ✓ No console errors
+    ✓ Game ends properly
+    ✓ Can restart/replay
+    ✓ Works in target browsers
+    ✓ Educational content displays
+    ✓ Performance is smooth (60fps)
+    ✓ No memory leaks
+    ✓ Code is clean and documented"
+
+## Code Review Questions
+
+31. "Review the PlayScene.ts file for potential improvements:
+    - Is the code DRY (Don't Repeat Yourself)?
+    - Are there any performance bottlenecks?
+    - Is the collision logic correct?
+    - Are all magic numbers extracted to constants?
+    - Is error handling adequate?"
+
+32. "Analyze the entire codebase for:
+    - Consistent code style
+    - Proper TypeScript usage
+    - Documentation completeness
+    - Test coverage opportunities
+    - Potential refactoring targets"
