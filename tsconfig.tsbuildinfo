@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/game/gameinit.ts","./src/game/assets.ts","./src/game/settings.ts","./src/game/scenes/bootscene.ts","./src/game/scenes/endscene.ts","./src/game/scenes/menuscene.ts","./src/game/scenes/playscene.ts"],"version":"5.9.3"}
